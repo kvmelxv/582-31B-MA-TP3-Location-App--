@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color:  #113f67;
+    padding: 0.5em;
+}
+
+.logo {
+    align-items: center;
+}
+
+header >  nav {
+    padding: 0.5em;
+}
+
+svg:hover{
+    fill: #a2a8d3;
+    cursor: pointer;
+}
+
+nav > ul {
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+}
+
+nav ul > div {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+nav ul div > li {
+    list-style: none;
+}
+
+ul div li > a {
+    text-decoration: none;
+    padding: 0.5em;
+    color: #e7eaf6;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+ul div li > a:hover {
+    color: white;
+}
+
+.user > p {
+    color: white;
+    text-decoration: underline;
+}

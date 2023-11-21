@@ -1,0 +1,49 @@
+.container-file {
+
+    display: flex;
+    flex-flow: column;
+    min-height: 50vh;
+    width: 70vh;
+    padding: 1vw;
+    margin: 15vh auto 0 auto;
+    border: 2px solid #113f67;
+    box-shadow: 0 4px 20px rgba(0, 25, 79, 0.404);
+    border-radius: 20px;
+
+
+}
+
+.container-file > form {
+    display: flex;
+    flex-flow: column;
+    padding: 4vh;
+    height: 25vh;
+}
+
+.container-file form > input {
+    padding: 1.5em;
+}
+
+.container-file form > button {
+    width: 50%;
+    padding: 2vh;
+    margin: 1vh auto 1vh auto;
+    border: none;
+    border-radius: 10px;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 1.5em;
+    background-color:  #385170;
+    color: white;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+
+.container-file form > button:hover {
+    background-color: #113f67;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+
